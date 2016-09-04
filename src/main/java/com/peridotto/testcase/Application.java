@@ -47,7 +47,7 @@ public class Application {
 
     public Application() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        prop = mapper.readValue(new File("C:\\Users\\fukuham\\Documents\\NetBeansProjects\\UnitHelper\\src\\main\\resources\\testcaseProperties.json"), ApplicationParameteｒ.class);
+        prop = mapper.readValue(new File("src\\main\\resources\\testcaseProperties.json"), ApplicationParameteｒ.class);
     }
 
 }
